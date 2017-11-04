@@ -10248,6 +10248,17 @@ module.exports = exports = nano = function dbScope(cfg) {
         type: 'list'
       }, qs, callback);
     }
+	  
+    function viewTemp(tempView,qs,cabllback){
+       return relax({
+        db: dbName,
+        path: '_temp_view',
+        body: tempView,
+        method: 'POST',
+        qs: qs
+      }, callback);
+	    
+    }
 
     // http://docs.couchdb.org/en/latest/api/database/bulk-api.html#post--db-_bulksDoc
     function bulksDoc(docs, qs, callback) {
@@ -10409,7 +10420,8 @@ module.exports = exports = nano = function dbScope(cfg) {
       search: viewSearch,
       spatial: viewSpatial,
       view: viewDocs,
-      viewWithList: viewWithList
+      viewWithList: viewWithList,
+      viewTemp: viewTemp
     };
 
     docScope.view.compact = function(ddoc, cb) {
