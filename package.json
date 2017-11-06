@@ -1,15 +1,15 @@
 {
   "name": "browser-nano",
-  "version": "6.1.4-alpha",
+  "version": "6.4.2",
   "description": "nano couchdb client built for browser",
-  "author": "Anton Lysenko <achesco@gmail.com>",
+  "author": "David Fulgham <david.a.fulgham@gmail.com> forked from Anton Lysenko <achesco@gmail.com>",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/achesco/browser-nano"
+    "url": "https://github.com/dfulgham/browser-nano"
   },
   "bugs": {
-    "url": "https://github.com/achesco/browser-nano/issues"
+    "url": "https://github.com/dfulgham/browser-nano/issues"
   },
   "keywords": [
     "nano",
@@ -24,7 +24,7 @@
     "database"
   ],
   "dependencies": {
-    "nano": "6.1.4",
+    "nano": "https://github.com/dfulgham/couchdb-nano.git",
     "errs": "0.3.0",
     "underscore": "1.7.0",
     "debug": "2.0.0",

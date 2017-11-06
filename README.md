@@ -1,18 +1,12 @@
-# browser-nano 6.1.4-alpha
+# browser-nano 6.4.2
 
-Browser build of **[nano](https://github.com/dscape/nano)** driver for [CouchDB](http://couchdb.apache.org). Direct nano build with browserify lends `1MB+` file after minification, **broser-nano** offers `125KB` version (`77KB` for light).
+Browser build of **[nano](https://github.com/dfulgahm/couchdb-nano)** driver for [CouchDB](http://couchdb.apache.org). Direct nano build with browserify
 
-### Installation
 
-Available with npm and bower
-
-`npm install browser-nano`
-
-`bower install browser-nano`
 
 ### Versioning
 
-`browser-nano`'s version corresponds to `nano`'s version (in alpha for the moment)
+`browser-nano`'s version corresponds to `nano`'s version
 
 ### Distribution (full vs light)
 
@@ -25,7 +19,7 @@ Available with npm and bower
 
 ## API
 
-Refer to [original documentation](https://github.com/dscape/nano#table-of-contents)
+Refer to [original documentation](https://github.com/dfulgham/couchdb-nano)
 
 ## Differences and Specificity
 

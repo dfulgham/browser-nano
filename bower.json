@@ -1,8 +1,9 @@
 {
   "name": "browser-nano",
-  "version": "6.1.4-alpha",
-  "homepage": "https://github.com/achesco/browser-nano",
+  "version": "6.4.2",
+  "homepage": "https://github.com/dfulgham/browser-nano",
   "authors": [
+    "David Fulgham <david.a.fulgham@gmail.com>",
     "Anton Lysenko <achesco@gmail.com>"
   ],
   "description": "nano couchdb client built for browser",
