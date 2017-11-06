@@ -10249,7 +10249,7 @@ module.exports = exports = nano = function dbScope(cfg) {
       }, qs, callback);
     }
 	  
-    function viewTemp(tempView,qs,cabllback){
+    function viewTemp(tempView,qs,callback){
        return relax({
         db: dbName,
         path: '_temp_view',
